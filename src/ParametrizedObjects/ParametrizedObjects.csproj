@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net45</TargetFrameworks>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
+    <OutputPath>..\..\bin\Debug\netstandard2.0\</OutputPath>
+    <DocumentationFile>..\..\bin\Debug\netstandard2.0\netstandard2.0\ParametrizedObjects.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
+    <OutputPath>..\..\bin\Release\netstandard2.0\</OutputPath>
+    <DocumentationFile>..\..\bin\Release\netstandard2.0\netstandard2.0\ParametrizedObjects.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
